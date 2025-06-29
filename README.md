@@ -27,11 +27,13 @@ The project has two main components:
   - ethers.js for blockchain simulation
   - JWT for authentication
 
-## Setup Instructions
+## Quick Start
+
+### Local Development
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/848deepak/OTID-FAN.git
    cd OTID-FAN
    ```
 
@@ -65,6 +67,14 @@ The project has two main components:
 
 7. Open your browser and navigate to `http://localhost:3000`
 
+### 🚀 Deploy to Production
+
+**Ready to deploy?** Check out our comprehensive [Deployment Guide](DEPLOYMENT.md) for step-by-step instructions to host your application on:
+
+- **Vercel** (Recommended - Free tier available)
+- **Netlify + Railway**
+- **Render**
+
 ## Project Structure
 
 ```
@@ -86,6 +96,7 @@ OTID-FAN/
 │   ├── utils/               # Utility functions
 │   └── index.js             # Server entry point
 ├── uploads/                 # Uploaded files directory
+├── DEPLOYMENT.md            # Deployment guide
 └── .env                     # Environment variables
 ```
 
@@ -129,4 +140,23 @@ OTID-FAN/
 5. **Fraud Lookup**
    - OTID validation
    - Fraud status checking
-   - Detailed fraud report display 
+   - Detailed fraud report display
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you encounter any issues or have questions:
+1. Check the [Deployment Guide](DEPLOYMENT.md) for common issues
+2. Open an issue on GitHub
+3. Review the troubleshooting section in the deployment guide 
